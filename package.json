@@ -1,0 +1,25 @@
+{
+  "name": "vs-chat",
+  "version": "1.0.0",
+  "description": "vscode connect to fb",
+  "main": "src/main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/main.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@xaviabot/fca-unofficial": "XaviaTeam/fca-unofficial",
+    "rxjs": "^7.8.1",
+    "tsyringe": "^4.8.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.3",
+    "eslint": "^8.55.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
